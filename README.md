@@ -20,5 +20,5 @@ mainnet.rpc.example.com ansible_host=127.0.0.1 ansible_user=ubuntu solana_networ
 
 Your next step is to review the system optimisation sysctl settings. These are drawn from `solana-sys-tuner` and `tuned` settings, but should be adjusted as per your system settings. You can find them in `group_vars/rpc_nodes.yml`.
 
-Finally you can run the deploy `ansible-playbook -i inventory playbook.yml`. This will take some time, so in the meanwhile look at the [README for solana-rpc-ansible](https://github.com/rpcpool/solana-rpc-ansible.git) to learn more about what it is you are actually deploying.
+Finally you can run the deploy `ansible-playbook -i inventory playbook.yml`. This will take some time, so in the meanwhile look at the [README for solana-rpc-ansible](https://github.com/rpcpool/solana-rpc-ansible/blob/main/README.md) to learn more about what it is you are actually deploying.
 
