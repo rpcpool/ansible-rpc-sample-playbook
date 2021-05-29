@@ -1,0 +1,7 @@
+- name: deploy rpc hosts
+  remote_user: root
+  hosts:
+    - rpc_nodes
+  roles:
+    - { role: solana-rpc-ansible }
+    - { role: solana-rpc-haproxy-ansible }

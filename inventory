@@ -1,0 +1,4 @@
+[rpc_nodes]
+mainnet.rpc.example.com solana_network=mainnet cpu_governor=bios
+devnet.rpc.example.com solana_network=devnet cpu_governor=bios
+testnet.rpc.example.com solana_network=testnet cpu_governor=bios
