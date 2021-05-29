@@ -2,7 +2,7 @@
 
 This repository holds a sample deploy for a Solana RPC node.
 
-To run these you'll need [Ansible](https://www.ansible.com/) installed, and you'll need a sufficiently speced hardware node.
+To run these you'll need [Ansible](https://www.ansible.com/) installed, and you'll need a sufficiently speced hardware node. This is designed for Ubuntu 18.04 or 20.04. Probably works on Debian as well. 
 
 First make sure you have installed the two required roles, for example in the `roles/` dir:
 
