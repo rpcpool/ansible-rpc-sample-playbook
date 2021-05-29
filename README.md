@@ -2,6 +2,8 @@
 
 This repository holds a sample deploy for a Solana RPC node.
 
+To run these you'll need [Ansible](https://www.ansible.com/) installed.
+
 First make sure you have installed the two required roles, for example in the `roles/` dir:
 
 ```
