@@ -3,5 +3,5 @@
   hosts:
     - rpc_nodes
   roles:
-    - { role: solana-rpc-ansible }
-    - { role: solana-rpc-haproxy-ansible }
+    - { role: rpcpool.solana_rpc }
+    - { role: rpcpool.solana_rpc_haproxy }
