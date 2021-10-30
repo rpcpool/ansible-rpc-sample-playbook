@@ -4,11 +4,11 @@ This repository holds a sample deploy for a Solana RPC node.
 
 To run these you'll need [Ansible](https://www.ansible.com/) installed, and you'll need a sufficiently speced hardware node. This is designed for Ubuntu 18.04 or 20.04. Probably works on Debian as well. 
 
-First make sure you have installed the two required roles, for example in the `roles/` dir:
+First make sure you have installed the two required roles:
 
 ```
-ansible-galaxy install --roles-path roles/ git+https://github.com/rpcpool/solana-rpc-ansible.git
-ansible-galaxy install --roles-path roles/ git+https://github.com/rpcpool/solana-rpc-haproxy-ansible.git
+ansible-galaxy install rpcpool.solana_rpc
+ansible-galaxy install rpcpool.solana_rpc_haproxy
 ```
 
 Before you run the deploy, edit the `inventory` file. If you do not have `root` access on your host, you can specify a user here as well:
